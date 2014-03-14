@@ -24,7 +24,7 @@ table:
       Ordered to close:
         method: checkbox
     per_page: 500
-  is_published: true
+  is_published: false
   publication_date: 2011-04-04
   sources: Los Angeles City Attorney, Los Angeles City Clerk
   credits: 'Megan Garvey, John Hoeffel, Maloy Moore, Ben Welsh'

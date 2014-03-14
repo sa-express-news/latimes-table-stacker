@@ -1,0 +1,29 @@
+table:
+  title: San Antonio Alcohol Sales Totals, 2013
+  file:  san_antonio_booze_sales_2013.csv
+  slug: san-antonio-alcohol-sales-totals-2013
+  kicker: "Top Alcohol Sales"
+  byline: Kolten Parker and Joe Kokenge 
+  column_options:
+    columns:
+     - Name
+     - Address
+     - Zip
+     - Amount
+    style:
+      Name: 'text-align:left; width:250px;'
+      Address: 'text-align:left; width:250px;'
+      Zip: "width:80px;"
+      Amount: "width:100px;"
+    sorted_by:
+      - Amount: descending
+    formatting:
+      Amount:
+        method: dollars
+    sorters:
+      Address: false
+  is_published: true
+  per_page: 50
+  publication_date: 2014-02-18
+  sources: <a target="_blank" href="http://www.window.state.tx.us/taxinfo/taxfiles.html">Texas Comptroller</a>
+  credits: '<a href="mailto:kparker@express-news.net">Kolten Parker</a>, <a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'

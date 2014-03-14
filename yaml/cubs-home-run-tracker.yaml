@@ -29,7 +29,7 @@ table:
           options:
               max: 60
   show_search_field: false
-  is_published: true
+  is_published: false
   publication_date: 2011-08-02
   publication_time: '11:58:00'
   sources: Baseball Reference
