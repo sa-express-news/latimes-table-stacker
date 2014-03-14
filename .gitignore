@@ -5,3 +5,7 @@ settings_private.py
 *.pyc
 *.swp
 .DS_Store
+.gitignore
+analytics.txt
+notes.txt
+settings.py
