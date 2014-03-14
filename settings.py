@@ -1,7 +1,10 @@
 import os
 import yaml
 
-AWS_BUCKET_NAME = 'table-stacker'
+AWS_BUCKET_NAME = 'data.mysanantonio.com'
+#AWS_BUCKET_NAME = 'stacker-test.omahajoe.org'
+
+
 ROOT_PATH = os.path.dirname(__file__)
 TEMPLATE_DIRS = (
     os.path.join(ROOT_PATH, 'templates'),
@@ -19,7 +22,7 @@ BAKERY_VIEWS = [
     'table_stacker.api.TableDetailJSONView',
     'bakery.views.Buildable404View',
 ]
-SITE_NAME = 'TableStacker Demonstration'
+SITE_NAME = 'San Antonio Express-News Data'
 FACEBOOK_ADMINS = ['foo','bar']
 
 DEBUG = True
@@ -49,7 +52,7 @@ DATABASES = {
 # timezone as the operating system.
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
-TIME_ZONE = 'America/Los_Angeles'
+TIME_ZONE = 'America/Chicago'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
