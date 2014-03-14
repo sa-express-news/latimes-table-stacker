@@ -59,7 +59,17 @@
                 moveToPage(table);
             }
                         
-            
+            //original moveToPage function
+            // function moveToPage(table) {
+            //     var c = table.config;
+            //     if(c.page < 0 || c.page > (c.totalPages-1)) {
+            //         c.page = 0;
+            //     }
+                
+            //     renderTable(table,c.rowsCopy);
+            // }
+
+            //this moveToPage contains necessaries for Hearst Analytics
             function moveToPage(table) {
                 var c = table.config;
                 if(c.page < 0 || c.page > (c.totalPages-1)) {
@@ -67,7 +77,12 @@
                 }
                 
                 renderTable(table,c.rowsCopy);
+                
+                if (typeof(refreshTSAnalytics) !== "undefined") {
+                    refreshTSAnalytics(c.page+1);
+                }
             }
+            
             
             function renderTable(table,rows) {
                 
