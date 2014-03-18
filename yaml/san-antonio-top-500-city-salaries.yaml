@@ -1,0 +1,45 @@
+table:
+  title: City Employees' Top Compensation, 2013
+  file:  san-antonio-top-500-city-salaries.csv
+  slug: san-antonio-top-500-city-employees-compensation
+  kicker: "SAN ANTONIO HIGHEST PAID CITY EMPLOYEES"
+  byline: Josh Baugh, Gary Martin and Joe Kokenge
+  description: <p>This interactive database shows compensation information for the 500 highest-paid employees at the city of San Antonio. Of the 500 employees on the list, 405 are public-safety personnel. For civilians, the "other" category includes cell phone, car allowances and one-time payments, including for performance and moving expenses for new employees. For public safety, "other" represents specialty pay categories. Civilian employees on the list do not qualify for overtime.  The data come from fiscal year 2013, which began Oct. 1, 2012 and ended Sept. 30, 2013.</p>
+  column_options:
+    columns:
+     - Name
+     - Job-Title
+     - Department
+     - Employee-Type
+     - Base-Pay
+     - Leave-Buyback
+     - Other
+     - Overtime
+     - Total-Compensation
+    style:
+      Name: 'text-align:left;'
+      Job-Title: 'text-align:left;'
+      Department:
+      Base-Pay: 
+      Leave-Buyback:
+      Other:
+      Overtime:
+      Total-Compensation:
+    sorted_by:
+      - Total-Compensation: descending
+    formatting:
+      Base-Pay:
+        method: dollars
+      Leave-Buyback:
+        method: dollars
+      Other:
+        method: dollars
+      Overtime:
+        method: dollars
+      Total-Compensation:
+        method: dollars
+  is_published: true
+  per_page: 50
+  publication_date: 2014-03-18
+  sources: <a target="_blank" href="http://www.sanantonio.gov/">City of San Antonio</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
