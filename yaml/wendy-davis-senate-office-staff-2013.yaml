@@ -1,0 +1,26 @@
+table:
+  title: Wendy Davis' Senate Office Staff
+  file:  wendy-davis-senate-office-staff-2013.csv
+  slug: wendy-davis-senate-office-staff-2013
+  kicker: "TOTAL COMPENSATION FOR WENDY DAVIS' SENATE OFFICE STAFF"
+  byline:  Joe Kokenge
+  description: <p>This table shows the total salary for each member of Wendy Davis' Senate Office Staff in 2013.</p>
+  column_options:
+    columns:
+     - Name
+     - Gender
+     - Compensation
+    style:
+      Name: 'text-align:left;'
+      Gender: 'text-align:left;'
+      Compensation:
+    sorted_by:
+      - Compensation: descending
+    formatting:
+      Compensation:
+        method: dollars
+  is_published: true
+  per_page: 50
+  publication_date: 2014-03-20
+  sources: <p>Wendy Davis Senate Office</p>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
