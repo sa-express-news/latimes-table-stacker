@@ -1,0 +1,27 @@
+table:
+  title: Insurance Claims against the City of San Antonio
+  file:  insurance-claims-against-san-antonio.csv
+  slug: insurance-claims-against-san-antonio
+  kicker: "Spreadsheet of Insurance Claims against the City of San Antonio"
+  byline: Joe Kokenge
+  description: <p>Since 2000, the city has paid more than $15 million to resolve insurance claims and lawsuits from vehicle accidents. This searchable database of claims filed against the city is a litany of the trivial and the tragic. The city spent $102 on a woman who complained that a garbage truck dented her mailbox. The city is also dealing with a complaint about a garbage truck that ran over a man in a wheelchair. His injuries were so severe that his legs had to be amputated. Read more details about the insurance claims and how the Texas Tort Claims Acts often protects cities from paying victims a dime in this <a target="_blank" href="http://www.mysanantonio.com/news/local_news/article/Damage-claims-hit-city-one-a-day-3450565.php">2012 story by the Express-News</a>.</p>
+  column_options:
+    columns:
+     - Total-Paid
+     - Claimant-Name
+     - Incident-Date
+     - Details
+     - Cause
+     - City-Department-Involved
+    sorted_by:
+      - Total-Paid: descending
+    formatting:
+      Total-Paid:
+        method: dollars
+    sorters:
+      Claimant-Name: false
+  is_published: true
+  per_page: 200
+  publication_date: 2014-04-01
+  sources: <a target="_blank" href="http://www.sanantonio.gov/">City of San Antonio</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
