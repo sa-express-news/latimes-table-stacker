@@ -1,0 +1,33 @@
+table:
+  title: Gallup Communities Well-Being Tracking
+  file:  communities-well-being-tracker.csv
+  slug: communities-well-being-tracker
+  kicker: "GALLUP SURVEY RESULTS FOR OVERALL WELL-BEING"
+  byline:  Joe Kokenge
+  description: <p>This table shows results for Texas communities for over-all well-being, obesity, frequent-exercise, frequent produce consumption, smoking, daily stress and rates of uninsured.  This data comes from the Gallup-Healthways Well-Being index from 2012-2013.</p>
+  column_options:
+    columns:
+     - Metro
+     - Overall-Well-Being
+     - Obese-Percent
+     - Exercise-Percent
+     - Eat-Produce-Percent
+     - Smoke-Percent
+     - Daily-Stress-Percent
+     - Uninsured-Percent
+    style:
+      Metro: 'text-align:left;'
+      Overall-Well-Being: 'text-align:left;'
+      Obese-Percent:
+      Exercise-Percent:
+      Eat-Produce-Percent:
+      Smoke-Percent:
+      Daily-Stress-Percent:
+      Uninsured-Percent:
+    sorted_by:
+      - Metro: ascending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-04-08
+  sources: <a href="http://www.gallup.com/poll/145913/City-Wellbeing-Tracking.aspx" target="_blank">Gallup-Healthways</a>
+  credits: <a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>
