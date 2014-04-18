@@ -1,0 +1,34 @@
+table:
+  title: Medicare Payments to San Antonio Area Health Care Providers-2012
+  file:  medicare-payments-sa-area-providers.csv
+  slug: san-antonio-medicare-payments
+  kicker: "Medicare Payments to Area Health Care Providers-2012"
+  byline: Joe Kokenge
+  description: <p>Reimbursement totals for San Antonio area health care providers who provided Medicare services in 2012.  This landmark release of data by the Federal government marks the first time private analysts and citizens can probe the billions paid-out via the Medicare program.  For a more in depth analysis see <a target="_blank" href="http://www.expressnews.com/business/health-care/article/Doctor-Millions-from-Medicare-doesn-t-mean-5390638.php">Express-News.com.</a></p> 
+  column_options:
+    columns:
+     - Name
+     - Address
+     - Type
+     - Submitted Amount
+     - Allowed Amount
+     - Medicare Payment Amount
+    style:
+      Name: 'text-align:left;'
+      Address: 'text-align: left;'
+    sorted_by:
+      - Medicare Payment Amount: descending
+    formatting:
+      Submitted Amount:
+        method: dollars
+      Allowed Amount:
+        method: dollars
+      Medicare Payment Amount:
+        method: dollars
+    sorters:
+      Address: false
+  is_published: true
+  per_page: 50
+  publication_date: 2014-04-18
+  sources: <a target="_blank" href="http://www.cms.gov/">Centers for Medicare and Medicaid Services</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
