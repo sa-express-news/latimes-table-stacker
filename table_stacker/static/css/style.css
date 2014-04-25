@@ -7,6 +7,7 @@ h1.index {font-size:28px;}
 #header div#share {float:right; position:relative;}
 #header div#share ul {margin-top:25px}
 #header div#share li {height: 22px; float: left; list-style: none; margin-right:2px;}
+#description div.embedded-fusion-map, div.description-above-map {padding:10px;}
 h4#kicker {letter-spacing: 0.03em; font-size:12px; text-transform:uppercase; color:black; display:block; margin:0 0 5px 0;}
 h1#title {margin:0 0 5px 0; font-size:28px;}
 #table_fu {width: 950px; font-size: 14px; line-height: 20px; color: #333;}
