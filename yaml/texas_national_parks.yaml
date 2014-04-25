@@ -1,0 +1,33 @@
+table:
+  title: 'Attendance at Texas National Parks, 2009-2013'
+  file:  texas_national_parks.csv
+  slug: texas-national-parks-attendance-2009-2013
+  kicker: "Texas National Parks Attendance"
+  byline: Joe Kokenge and Kolten Parker
+  description: <p class="description-above-map">The table shows attendance figures to each national park in Texas from 2009-2013. Find locations, attractions, directions, contact and other information by clicking the blue markers on the map.</p><div class="embedded-fusion-map"><iframe width="950" height="500" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col1+from+1LXk1LeNLFwn-1G4ubdSz_zQzkEgp3F1QD5sPLyEE&amp;viz=MAP&amp;h=false&amp;lat=31.118103837140467&amp;lng=-97.60993589999998&amp;t=1&amp;z=5&amp;l=col1&amp;y=2&amp;tmplt=2&amp;hml=ONE_COL_LAT_LNG"></iframe></div>
+  column_options:
+    columns:
+      - Park-Name
+      - '2009'
+      - '2010'
+      - '2011'
+      - '2012'
+      - '2013'
+      - Average
+      - Camping
+    style:
+      Park-Name: 'text-align:left; width:120px;'
+      '2009': 'width:100px;'
+      '2010': 'width:100px;'
+      '2011': 'width:100px;'
+      '2012': 'width:100px;'
+      Average: 'width:100px;'
+    sorted_by:
+      - Average: descending
+    formatting:
+      Camping:
+        method: checkbox
+  is_published: true
+  publication_date: 2013-04-22  
+  sources: <a href="https://irma.nps.gov/Stats/SSRSReports/National%20Reports/Five%20Year%20Annual%20Recreation%20Visitation%20By%20Park%20%281979%20-%20Last%20Calendar%20Year%29" target="_blank">U.S. National Parks Service</a>
+  credits: '<a href="mailto:kparker@express-news.net">Kolten Parker</a>, <a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
