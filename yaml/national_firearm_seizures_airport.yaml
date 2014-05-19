@@ -1,0 +1,27 @@
+table:
+  title: National Firearm Seizures by Airport
+  file:  national_firearm_seizures_airport.csv
+  slug: national-airport-firearms-seizures
+  kicker: Firearms Seized at US Airports
+  byline: Joe Kokenge
+  description: <p>A tally of firearms seized at major U.S. airports in 2012 and 2013.</p>
+  column_options:
+    columns:
+      - Airport
+      - Airport Code
+      - '2012'
+      - '2013'
+      - Total
+    style:
+      Airport: 'text-align:left; width:35%;'
+      Airport Code: 'text-align:left; width:15%;'
+      2012: 'text-align:left; width:19%;'
+      2013: 'text-align:left; width:19%;'
+      Total: 'width: 15%'
+    sorted_by:
+      - Total: descending
+    per_page: 50
+  is_published: true
+  publication_date: 2014-05-19
+  sources: <a href="http://www.tsa.gov/" target="_blank">TSA</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>, <a href="mailto:kparker@express-news.net">Kolten Parker</a>'

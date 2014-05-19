@@ -1,0 +1,20 @@
+table:
+  title: Texas Endangered Species
+  file:  texas_endangered_species.csv
+  slug: texas-endangered-species
+  kicker: Endangered Species in the State of Texas
+  byline: Joe Kokenge
+  description: <div style="padding:10px;">A listing of animal species and their status on Federal and/or state endangered species list.</div>
+  column_options:
+    style:
+      Common Name: 'text-align:left; width:250px;'
+      Scientific Name: 'text-align:left; width:200px;'
+      Group: "width:80px;"
+      State Status: "width:100px;"
+      Federal Status: "width: 100px"
+    sorted_by:
+      - Common Name: ascending
+  is_published: true
+  publication_date: 2014-05-02
+  sources: <a target="_blank" href="http://www.tpwd.state.tx.us/">Texas Parks and Wildlife Department</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
