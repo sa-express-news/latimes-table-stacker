@@ -1,28 +1,46 @@
 table:
-  title: Texas High Schools Average SAT/ACT Scores 2012-2013
+  title: Texas Public High Schools Average SAT/ACT Scores 2012-2013
   file:  texas-hs-avg-act-sat-scores.csv
   slug: texas-high-schools-average-scores-SAT-ACT
   kicker: Average SAT and ACT Scores for Texas High Schools 
   byline: Joe Kokenge
-  description: <p>description text here</p>
+  description: <p>These results represent the average SAT and ACT scores as collected by the Texas Education Agency for public campuses throughout Texas. A result of "0" or "-1" indicates where the actual score has been <a href="http://ritter.tea.state.tx.us/perfreport/tapr/2013/masking.html" target="_blank">"masked"</a> or there were no results to report. A "0" indicates there were no results to report and a "-1" indicates there were less than 5 students reporting results and the results are withheld to protect the anonymity of these students.</p>
   column_options:
     columns:
       - Campus Name
+      - District Name
       - AVG ACT Campus
+      - ACT AVG vs Max (36)
       - AVG SAT Campus
+      - SAT Avg vs Max (2400)
       - San Antonio Region
     style:
-      Campus Name: 'text-align:left; width:30%;'
-      AVG ACT Campus: 'text-align:left; width:15%;'
-      AVG SAT Campus: 'text-align:left; width:15%;'
-      San Antonio Region: 'width:10%;'
+      Campus Name: 'text-align:left; width:20%;'
+      District Name: 'text-align:left; width:20%;'
+      AVG ACT Campus: 'width:8%;'
+      ACT AVG vs Max (36): 'width:7%;'
+      AVG SAT Campus: 'width:8%;'
+      SAT Avg vs Max (2400): 'width:7%;'
+      San Antonio Region: 'width:3%;'
     sorted_by:
       - San Antonio Region: descending
     formatting:
       San Antonio Region:
         method: checkbox
+      ACT AVG vs Max (36):
+        method: simple_bullet_graph
+        arguments:
+          - AVG ACT Campus
+        options:
+          max: 36
+      SAT Avg vs Max (2400):
+        method: simple_bullet_graph
+        arguments:
+          - AVG SAT Campus
+        options:
+          max: 2400
     per_page: 50
-  is_published: false
+  is_published: true
   publication_date: 2014-05-19
-  sources: <a href="http://ritter.tea.state.tx.us/perfreport/tapr/2013/">Texas Education Agency</a>
-  credits: '<a href="mailto:jkokenge@expressnews.net">Joe Kokenge</a>'
+  sources: <a href="http://ritter.tea.state.tx.us/perfreport/tapr/2013/" target="_blank">Texas Education Agency</a>
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>, <a href="mailto:kparker@express-news.net">Kolten Parker</a>'
