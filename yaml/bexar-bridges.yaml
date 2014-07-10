@@ -1,0 +1,24 @@
+table:
+  title: Structurally Deficient Bridges in Bexar County
+  file:  bexar-bridges.csv
+  slug: bexar-bridges
+  kicker: By Joe Cook and Kolten Parker
+  description: <p class="description-above-map">The map shows all 382 bridges in Bexar County listed as either functionally obsolete or structurally deficient by the National Bridge Inventory. Of these, 13 are "structurally deficient," which "does not imply that a bridge is unsafe, but such bridges typically require significant maintenance and repair to remain in service," according to the Texas Department of Transportation. These are represented by yellow dots in the map. The other 369 bridges are "functionally obsolete," which indicates the structures do "not meet current design standards, either because the volume of traffic carried by the bridge exceeds the level anticipated when the bridge was constructed and/or the relevant design standards have been revised." There are more than 2,100 bridges in Bexar County.</p><div class="embedded-fusion-map"><iframe width="950" height="500" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col7+from+1ohrZujZ2FL6_lQUhuVHEx86Ar0zTeTV_jN7YaTqi&amp;viz=MAP&amp;h=false&amp;lat=29.42901971251874&amp;lng=-98.45434497453124&amp;t=1&amp;z=10&amp;l=col7&amp;y=2&amp;tmplt=2&amp;hml=TWO_COL_LAT_LNG"></iframe></div>
+  column_options:
+    columns:
+     - Road
+     - Crosses
+     - Location
+     - Design
+     - Built
+     - Reconstructed
+     - Span-feet
+     - TotalLength
+     - Condition
+    sorted_by:
+      - Built: ascending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-07-08
+  sources: Texas Department of Transportation, National Bridge Inventory via <a target="_blank" href="http://www.sanantonio.gov/">Ugly Bridges</a>
+  credits: '<a href="https://twitter.com/josephcook89">Joe Cook</a>, <a href="https://twitter.com/KoltenParker">Kolten Parker</a>' 
