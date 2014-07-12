@@ -1,0 +1,20 @@
+table:
+  title: Items sold from the Bexar County Jail commissary
+  file:  commissary-items.csv
+  slug: commissary-items-bexar-jail
+  kicker: Items, prices and quanity sold since Jan. 2013
+  description: <p>Items sold from the Bexar County Jail commissary since January 1, 2013.</p>
+  column_options:
+    columns:
+     - Item
+     - Category
+     - Price
+     - Quantity Sold
+     - Total Amount
+    sorted_by:
+      - Total Amount: descending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-07-12
+  sources: Bexar County
+  credits: '<a href="https://twitter.com/KoltenParker">Kolten Parker</a>' 
