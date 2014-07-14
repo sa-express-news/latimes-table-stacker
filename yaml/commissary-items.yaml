@@ -3,7 +3,7 @@ table:
   file:  commissary-items.csv
   slug: commissary-items-bexar-jail
   kicker: Items, prices and quanity sold since Jan. 2013
-  description: <p>Items sold from the Bexar County Jail commissary since January 1, 2013.</p>
+  description: <p>Items sold from the Bexar County Jail commissary from January 1, 2013 to May 6, 2014. Some items appear twice with a different price because of changes in cost.</p>
   column_options:
     columns:
      - Item
