@@ -3,7 +3,7 @@ table:
   file:  commissary-items.csv
   slug: commissary-items-bexar-jail
   kicker: By <a href="https://twitter.com/KoltenParker">Kolten Parker</a>
-  description: <p>Items sold from the Bexar County Jail commissary from January 1, 2013 to May 6, 2014. Some items appear twice with a different price because of changes in cost.</p>
+  description: <p>Items sold from the Bexar County Jail commissary from January 1, 2013 to May 6, 2014, based on records obtained by the San Antonio Express-News. Some items appear twice with a different price because of changes in cost. Inmates may purchase items through the commissary using money sent by friends or family. These items are in addition to the meals provided by the jail. Read more about these figures <a href="http://www.mysanantonio.com/news/local/article/Most-popular-items-sold-to-inmates-at-Bexar-Co-5620266.php">here.</a></p>
   column_options:
     columns:
      - Item

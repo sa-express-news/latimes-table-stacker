@@ -1,0 +1,25 @@
+table:
+  title: Texas stores that sold winning lottery tickets for the biggest jackpots
+  file:  texas-lottery-winners.csv
+  slug: texas-lottery-winners
+  kicker: By Kolten Parker and Joe Cook
+  description: <p class="description-above-map">The map shows stores that sold winning Powerball and Mega Millions lottery tickets with jackpots more than $10 million and Lotto Texas tickets with jackpots more than $4 million were sold from July 8, 2012 to July 8, 2014.</p><div class="embedded-fusion-map"><iframe width="950" height="400" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col4+from+1n89KQOdIA2egpgSgW9FXpzETH6hpNnE_Se3ib_LM&amp;viz=MAP&amp;h=false&amp;lat=33.72180090668615&amp;lng=-100.35068717500002&amp;t=1&amp;z=5&amp;l=col4&amp;y=2&amp;tmplt=2&amp;hml=GEOCODABLE"></iframe></div>
+  column_options:
+    columns:
+     - City
+     - Amount
+     - Game
+     - Retailer
+     - Address
+     - DrawDate
+     - ClaimDate
+     - Claimant
+     - Payment
+     - QuickPick
+  sorted_by:
+      - Amount: descending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-07-25
+  sources: Texas Lottery Commission
+  credits: '<a href="https://twitter.com/KoltenParker">Kolten Parker</a>, <a href="https://twitter.com/josephcook89">Joe Cook</a>' 
