@@ -3,47 +3,47 @@ table:
   file: border-patrol-sector-apprehensions.csv
   slug: border-patrol-sector-apprehensions
   byline: Joe Kokenge
-  description: <p class="description-above-map">Data from the United States Border Patrol representing the total undocumented immigrant apprehensions for the last ten years. <br /> N.B. The Livermore Sector was closed after 2005.</p><p class="hc_graphic"></p>
+  description: <p class="description-above-map">Data from the United States Border Patrol representing the total undocumented immigrant apprehensions for the last ten years. The Livermore Sector was closed after 2005. Click on each sector below the graph to see how much each contributes to the overall total.</p><p class="hc_graphic"></p>
   column_options:
     columns:
       - sector
-      - "2003"
-      - "2004"
-      - "2005"
-      - "2006"
-      - "2007"
-      - "2008"
-      - "2009"
-      - "2010"
-      - "2011"
-      - "2012"
-      - "2013"
+      - '2003'
+      - '2004'
+      - '2005'
+      - '2006'
+      - '2007'
+      - '2008'
+      - '2009'
+      - '2010'
+      - '2011'
+      - '2012'
+      - '2013'
     style: 
       sector: 'text-align:left;'
     sorted_by:
-      - "2013": descending
+      - '2013': descending
     formatting:
-      "2003":
+      '2003':
         method: intcomma
-      "2004":
+      '2004':
         method: intcomma
-      "2005":
+      '2005':
         method: intcomma
-      "2006":
+      '2006':
         method: intcomma
-      "2007":
+      '2007':
         method: intcomma
-      "2008":
+      '2008':
         method: intcomma
-      "2009":
+      '2009':
         method: intcomma
-      "2010":
+      '2010':
         method: intcomma
-      "2011":
+      '2011':
         method: intcomma
-      "2012":
+      '2012':
         method: intcomma
-      "2013":
+      '2013':
         method: intcomma
   is_published: true
   publication_date: 2014-07-25
