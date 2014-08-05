@@ -1,0 +1,23 @@
+table:
+  title: Licensed abortion providers in Texas as of August 2014
+  file:  abortion-facilities.csv
+  slug: abortion-facilities
+  kicker: By Kolten Parker
+  description: <p class="description-above-map">The map shows all 50 abortion providers that were licensed on Jan 1, 2011, before the Texas Legislature enacted restrictions in <a href="http://blog.mysanantonio.com/texas-politics/2011/02/senate-passes-sonogram-bill-21-10/">2011</a> and <a href="http://www.expressnews.com/news/politics/texas_legislature/article/Debate-protests-fail-to-halt-abortion-bill-4663192.php?cmpid=twitter-premium&t=3b628d2e7beb16c911">2013</a> on clinics that they said led to closures. The <b>red markers</b> represent providers that have closed since 2011, the <b>yellow markers</b> represent providers that have current state licenses but do not meet the requirements of the new surgical center law that is scheduled to be enacted on Sept. 1. <b>Green markers</b> represent licensed ambulatory surgical centers, which meet the new requirements and could stay open under the new law. A federal judge is <a href="http://www.expressnews.com/news/local/article/Texas-abortion-law-debated-in-federal-court-5668095.php?cmpid=twitter-premium&t=8997c834b4eb16c911">weighing whether to block</a> the Sept. 1 implementation of the ambulatory surgical center requirements, that could leave 7 providers in the state of Texas, if passed.</p><div class="embedded-fusion-map"><iframe width="950" height="500" scrolling="no" frameborder="no" src="https://www.google.com/fusiontables/embedviz?q=select+col5+from+1Nqq_3GdA-UR7wWfB63kd8djZop3yAcq7yp2aWQQ9&amp;viz=MAP&amp;h=false&amp;lat=30.18041904094914&amp;lng=-95.92466989218747&amp;t=1&amp;z=6&amp;l=col5&amp;y=4&amp;tmplt=6&amp;hml=GEOCODABLE"></iframe></div>
+  column_options:
+    columns:
+     - Name
+     - City
+     - Type
+     - Current license
+     - Expire date
+     - Address
+     - Phone
+     - Zip
+    sorted_by:
+      - Type: descending
+  is_published: true
+  per_page: 100
+  publication_date: 2014-08-04
+  sources: Texas Department of State Health Services
+  credits: '<a href="https://twitter.com/KoltenParker">Kolten Parker</a>'
