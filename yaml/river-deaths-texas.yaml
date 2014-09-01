@@ -1,0 +1,20 @@
+table:
+  title: Deaths on Texas rivers since 2010
+  file:  river-deaths-texas.csv
+  slug: river-deaths-texas
+  kicker: By <a href="https://twitter.com/KoltenParker">Kolten Parker</a>
+  description: <p>The database shows all deaths on Texas rivers reported to the Texas Parks and Wildlife Department since 2010.</p>
+  column_options:
+    columns:
+     - Water Body
+     - Cause
+     - Boat Involved
+     - Year
+     - River Length
+    sorted_by:
+      - Year: descending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-09-01
+  sources: Texas Parks and Wildlife Department
+  credits: '<a href="https://twitter.com/KoltenParker">Kolten Parker</a>'
