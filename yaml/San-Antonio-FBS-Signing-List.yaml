@@ -1,0 +1,27 @@
+table:
+  title: San Antonio FBS Signing List
+  file:  San-Antonio-FBS-Signing-List.csv
+  slug:  San-Antonio-FBS-Signing-List
+  kicker: Spreadsheet
+  byline: Ben Baby and Joe Kokenge
+  description: 'Some descriptive text goes here.'
+  column_options:
+    columns:
+     - Name
+     - Position
+     - High School
+     - College
+     - Signing Class
+    style:
+     Name: 'text-align:left;'
+     Position: 'text-align:center'
+     High School: 'text-align:left'
+     College: 'text-align:left'
+     Signing Class: 'text-align:center'
+    sorted_by:
+      - Signing Class: descending
+  is_published: true
+  per_page: 50
+  publication_date: 2014-12-16
+  sources: 'Express-News Sports Desk'
+  credits: '<a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>, <a href="mailto:bbaby@express-news.net">Ben Baby</a>'
