@@ -1,0 +1,32 @@
+table:
+  title: Allen ISD Salaries
+  file:  AllenISD.csv
+  slug: allen-isd-salaries
+  kicker: "Salaries for Allen ISD employees"
+  column_options:
+    columns:
+     - Name
+     - Position
+     - Amount
+     - Department
+     - Race
+     - Gender
+     - Hire Date
+    style:
+      Name: 'text-align:left;'
+      Position: 'text-align:left;'
+      Amount:
+      Department: 
+      Race:
+      Gender:
+      Hire Date:
+    sorted_by:
+      - Amount: descending
+    formatting:
+      Amount:
+        method: dollars
+  is_published: true
+  per_page: 50
+  publication_date: 2015-01-08
+  sources: <a target="_blank" href="http://salaries.texastribune.org/allen-isd/">Texas Tribune</a>
+  credits: '<a href="mailto:datadesk@express-news.net">Data Desk </a>'
