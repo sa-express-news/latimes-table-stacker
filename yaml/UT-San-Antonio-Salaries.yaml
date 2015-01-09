@@ -1,0 +1,30 @@
+table:
+  title: UT San Antonio Salaries
+  file:  UT-San-Antonio-Salaries.csv
+  slug: ut-san-antonio-salaries
+  kicker: "Salaries for UT San Antonio Employees"
+  column_options:
+    columns:
+     - Name
+     - Position
+     - Race
+     - Gender
+     - Hire Date
+     - Salary
+    style:
+      Name: 'text-align:left;'
+      Position: 'text-align:left;'
+      Race:
+      Gender: 
+      Hire Date:
+      Salary:
+    sorted_by:
+      - Salary: descending
+    formatting:
+      Salary:
+        method: dollars
+  is_published: true
+  per_page: 50
+  publication_date: 2015-01-09
+  sources: <a target="_blank" href="http://salaries.texastribune.org/university-of-texas-at-san-antonio/">Texas Tribune</a>
+  credits: '<a href="mailto:datadesk@express-news.net">Data Desk</a>'
