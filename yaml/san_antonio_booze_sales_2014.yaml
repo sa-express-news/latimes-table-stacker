@@ -1,0 +1,29 @@
+table:
+  title: San Antonio Alcohol Sales Totals, 2014
+  file:  san_antonio_booze_sales_2014.csv
+  slug: san-antonio-alcohol-sales-totals-2014
+  kicker: "Top Alcohol Sales"
+  byline: Neal Morton and Joe Kokenge 
+  column_options:
+    columns:
+     - Name
+     - Address
+     - Zip
+     - Amount
+    style:
+      Name: 'text-align:left; width:250px;'
+      Address: 'text-align:left; width:250px;'
+      Zip: "width:80px;"
+      Amount: "width:100px;"
+    sorted_by:
+      - Amount: descending
+    formatting:
+      Amount:
+        method: dollars
+    sorters:
+      Address: false
+  is_published: true
+  per_page: 50
+  publication_date: 2015-01-26
+  sources: <a target="_blank" href="http://www.window.state.tx.us/taxinfo/taxfiles.html">Texas Comptroller</a>
+  credits: '<a href="mailto:nmorton@express-news.net">Neal Morton</a>, <a href="mailto:jkokenge@express-news.net">Joe Kokenge</a>'
