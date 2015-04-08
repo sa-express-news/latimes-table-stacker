@@ -1,0 +1,35 @@
+table:
+  title: UT San Antonio Health Science Center Salaries 
+  file:  UTSA-Health-Science-Center-Salaries.csv
+  slug: ut-san-antonio-health-science-center-salaries
+  kicker: "Salaries for UT San Antonio Health Science Center Employees"
+  column_options:
+    columns:
+     - 'Last Name'
+     - 'First Name'
+     - Title
+     - Department
+     - Race
+     - Gender
+     - 'FT-PT'
+     - 'Hire Date'
+     - 'Gross Annual Salary'
+    style:
+      Last Name: 'text-align:left;'
+      First Name: 'text-align:left;'
+      Title:
+      Department: 
+      Race:
+      Gender:
+      FT-PT:
+      Hire Date:
+      Gross Annual Salary:
+    sorted_by:
+      - Gross Annual Salary: descending
+    formatting:
+      Gross Annual Salary:
+        method: dollars
+  is_published: true
+  per_page: 50
+  publication_date: 2015-04-08
+  sources: <a target="_blank" href="http://salaries.texastribune.org/the-university-of-texas-health-science-center-at-san-antonio/">Texas Tribune</a>
